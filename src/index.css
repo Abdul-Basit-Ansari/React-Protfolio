@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width:767px) and (min-width:1px) {
+		.mywidth{
+			width: 100%;
+		}
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+
+
+    .mywidth100{
+        width: 100%;
+    }
+    .mywidth90{
+        width: 90%;
+    }
+    .mywidth80{
+        width: 80%;
+    }
+    .mywidth70{
+        width: 70%;
+    }
+    .mywidth60{
+        width: 60%;
+    }
+    .mywidth50{
+        width: 50%;
+    }
+    .mywidth40{
+        width: 40%;
+    }
+    .mywidth30{
+        width: 30%;
+    }
+    .mywidth20{
+        width: 20%;
+    }
+    .mywidth10{
+        width: 10%;
+    }

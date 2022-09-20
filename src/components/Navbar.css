@@ -1,0 +1,68 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, cursive;
+
+}
+
+.container {
+	padding: 0px 25px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	min-height: 10vh;
+	background-color: #0d7653;
+} */
+/* 
+ul {
+	position: relative;
+	display: flex;
+	gap: 30px;
+} */
+@media screen and (min-width:1024px) {
+
+	ul .myNavItem {
+		position: relative;
+	list-style: none;
+	height: 15px;
+}
+
+ul .myNavItem .myLink {
+	/* padding-left: 8px ; */
+	display: inline-block;
+	position: relative;
+	/* padding: 0px 5px; */
+	/* font-size: 20px; */
+	/* height: 15px; */
+	/* font-weight: bold; */
+	text-decoration: none;
+	/* line-height: 4cm; */
+	/* letter-spacing: 1px; */
+	/* text-transform: uppercase; */
+	/* color: transparent; */
+	color: rgba(204 251 241 1);
+	/* -webkit-text-stroke: 1px #00ffea85; */
+}
+
+ul li .myLink::before {
+	height: 25px;
+	content: attr(data-text);
+	position: absolute;
+	color: #00ffea;
+	/* margin-left: -10px; */
+	width: 0;
+	overflow: hidden;
+	/* color:#7aece2; */
+	transition: 1s;
+	-webkit-text-stroke: 1px var(--crl);
+}
+
+ul li .myLink:hover::before {
+	/*border-right: 2px solid #7aece2;
+	*/margin-left: 0px;
+	width: 100%;
+	/* filter: drop-shadow(0 0 25px #01f3df); */
+	/* -webkit-filter: drop-shadow(0 0 25px #01f3df); */
+}
+	}
