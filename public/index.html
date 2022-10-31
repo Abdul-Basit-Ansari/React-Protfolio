@@ -7,6 +7,8 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+  <meta name="keywords" content="Protfolio , Code By Basit , CBB">
+  <meta name="author" content="Abdul Basit Ansari">
     <meta
       name="description"
       content="Code By Basit Is Protfolio Web Project . Made In React , Tailwind CCS , Nodejs , Express js And MongoDB ."
@@ -33,6 +35,11 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Code By Basit</title>
+    <script>
+      if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
